@@ -1,6 +1,6 @@
-##################################
+***********#
 #   Projet Bank Account kata     #
-##################################
+***********#
 
 This is a maven project with jdk 11
 It implements 3 user stories :
@@ -12,7 +12,7 @@ It implements 3 user stories :
 
 # How to use it
 
-### Construct and build the project 
+* Construct and build the project 
 * Import the project in your favorite IDE
 
 * From your IDE perform a first mvn clean install after you have successfully 
@@ -23,36 +23,34 @@ It implements 3 user stories :
 with this exposing root (see kata.sg.rest.AccountController for more details)
 
 
-### From the target jar
+* From the target jar
 java -jar target/kataSg-1.0-SNAPSHOT.jar
 
 # API REST Endpoint
 
-## URL : http://localhost:8080
-## Swagger : http://localhost:8080/swagger-ui.html#/
+* URL : http://localhost:8080
+* Swagger : http://localhost:8080/swagger-ui.html#/
 
 ## Deposit
 
 
-### API METHOD : POST 
-### API ENDPOINT : localhost:8080/api/account/deposit 
-### API TYPE : JSON
-### API BODY : {  "accountNumber":"FR76XXX", "amount":"5000"
-            } 
+* API METHOD : POST 
+* API ENDPOINT : localhost:8080/api/account/deposit 
+* API TYPE : JSON
+* API BODY : {  "accountNumber":"FR76XXX", "amount":"5000" } 
 
 ## Withdraw
 
 
-### API METHOD : POST 
-### API ENDPOINT : localhost:8080/api/account/withdraw 
-### API TYPE : JSON
-### API BODY : {  "accountNumber":"FR76XXX",  "amount":"5000"
-            } 
+* API METHOD : POST 
+* API ENDPOINT : localhost:8080/api/account/withdraw 
+* API TYPE : JSON
+* API BODY : {  "accountNumber":"FR76XXX",  "amount":"5000"} 
 ## Historic
 
 
-### API METHOD : GET 
-### API ENDPOINT : localhost:8080/api/account/historic?accountNbr=FR76XXX
+* API METHOD : GET 
+* API ENDPOINT : localhost:8080/api/account/historic?accountNbr=FR76XXX
 
 
 # Note
