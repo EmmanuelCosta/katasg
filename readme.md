@@ -33,28 +33,26 @@ java -jar target/kataSg-1.0-SNAPSHOT.jar
 
 ## Deposit
 
-By default : 
-API METHOD : POST 
-API ENDPOINT : localhost:8080/api/account/deposit 
-API TYPE : JSON
-API BODY : {  "accountNumber":"FR76XXX",
-               "amount":"5000"
+
+### API METHOD : POST 
+### API ENDPOINT : localhost:8080/api/account/deposit 
+### API TYPE : JSON
+### API BODY : {  "accountNumber":"FR76XXX", "amount":"5000"
             } 
 
 ## Withdraw
 
-By default : 
-API METHOD : POST 
-API ENDPOINT : localhost:8080/api/account/withdraw 
-API TYPE : JSON
-API BODY : {  "accountNumber":"FR76XXX",
-               "amount":"5000"
+
+### API METHOD : POST 
+### API ENDPOINT : localhost:8080/api/account/withdraw 
+### API TYPE : JSON
+### API BODY : {  "accountNumber":"FR76XXX",  "amount":"5000"
             } 
 ## Historic
 
-By default : 
-API METHOD : GET 
-API ENDPOINT : localhost:8080/api/account/historic?accountNbr=FR76XXX
+
+### API METHOD : GET 
+### API ENDPOINT : localhost:8080/api/account/historic?accountNbr=FR76XXX
 
 
 # Note
